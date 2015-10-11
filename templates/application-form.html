@@ -1,0 +1,56 @@
+
+{% extends "base.html" %}
+{% block title%}We'd love you to apply!{% endblock %}
+{% block body %}
+    <form action="/application", method="get">
+        <div>
+            <label>First Name: 
+                <input type="text" name="firstname"></label><br>
+            <label>Last Name: 
+                <input id="boldlastname" type="text" name="lastname"></label><br>
+            <label>Salary Requirement: 
+                <input type="number" name="salary"></label><br>
+            <label>Position Desired:
+                <select name="position">
+                    <option value="software-engineer">Software Engineer</option>
+                    <option value="qa-engineer">QA Engineer</option>
+                    <option value="product-manager">Product Manager</option>
+                </select>
+            </label><br>
+            <input type="submit" value="Apply Now!">
+        </div>
+    </form>
+{% endblock%}
+
+
+<!-- <!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Skills-HTML-CSS</title>
+       
+        <link type ="text/css" rel="stylesheet" href="styles.css">
+    </head>
+    <h1 id="documentation">
+        Please input your career-related information below
+    </h1>
+    <body>
+        <form action="/application" method="post">
+
+            <label>First Name <input type="text" name="firstname"></label><br>
+            <label>Last Name <input id="boldlastname" type="text" name="lastname"></label><br>
+            <label>Salary Requirement <input type="number" name="salary"></label><br>
+            <label>
+                Position Desired
+                <select name="position">
+                    <option value="software-engineer">Software Engineer</option>
+                    <option value="qa-engineer">QA Engineer</option>
+                    <option value="product-manager">Product Manager</option>
+                </select>
+            </label>
+            <br>
+            <input type="submit">
+
+        </form>
+    </body>
+</html> -->

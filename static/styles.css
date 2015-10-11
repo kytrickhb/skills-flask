@@ -1,0 +1,31 @@
+
+#documentation{
+    border: 1px solid blue;
+}
+
+input{
+    background-color: yellow;
+}
+
+#boldlastname{
+    font-weight:bold;
+}
+
+
+/*
+
+form label input{
+    background-color: yellow;
+}
+
+form label select{
+    background-color:yellow;
+}
+
+form label input submit{
+    background-color:yellow;
+}
+
+h1 {
+    border: 1px solid;
+}*/

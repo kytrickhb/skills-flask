@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>{% block title %}TITLE GOES HERE{% endblock %}</title>
+            <link rel="stylesheet" href="/static/styles.css">
+        </head>
+        <body>
+            <header>
+                <div id="header">
+                    <img id="logo" src="static/img/money.jpg">
+                </div>
+            </header>
+            {% block body %}BODY GOES HERE{% endblock %}
+        </body>
+    </html>
